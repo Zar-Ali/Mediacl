@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.pages{
+  
+  cursor: pointer;
+}
+.pages:hover{
+color: #0065e1 !important;
+}
+
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+}
+.heading-1 {
+  font-family: "Playfair Display", serif;
+}
+.hero-up {
+  margin-top: 150px;
+}
+.list {
+  font-family: "Roboto", sans-serif;
+}
+.img-fluid-1 {
+  width: 40%;
+  height: auto;
+}
+
+.div-maintain {
+  max-height: 110px;
+}
+.Hit {
+  height: 300px;
+}
+.input-width {
+  width: 270px;
+}
+.div-setting {
+  max-width: auto;
+}
+
+.bg-img-1{
+ 
+  background-image: url(./../images/departments-bg-img.webp);
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  /* z-index: 10; */
+
+}
+.bg-color-dep{
+  transition: all 0.5s !important;
+}
+
+.bg-color-dep:hover {
+  background-color: #0065e1 !important;
+  border: 1px solid #0065e1 !important;
+  color: white !important;
+
+}
+.keyboard-bg{
+  background-image: url(./../images/keyboard\ bg.webp);
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat; 
+  /* position: relative; */
+}
+.margin-setting{
+  margin-top: 120px;
+}
+.position-absolute{
+right: 81%;
+top: 130%;
+}
+.color-1{
+  background-color: #0065e1;
+}
